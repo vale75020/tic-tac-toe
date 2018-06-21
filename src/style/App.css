@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:green;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    border: 5px solid red;
+}
+.carre{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border: 5px solid red;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.paswinnerencore {
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    margin: 16px 0px;
+    visibility: hidden;
+    display: block;
+}
+
+h1.winner {
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    margin: 16px 0px;
+    visibility: visible;
+}
+
+
+
+.start {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.image{
+    width: 300px;
+    height: 90px;
+    background-image: url("./ttt.gif");  
+    background-size: cover;
+    display: block;
+    margin: auto;
+    margin: 10px auto;
+}
